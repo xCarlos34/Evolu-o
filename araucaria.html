@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Araucaria basquete</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <script src="basquete.js"></script>
+    
+    <div id="container">
+        <div class="tab-buttons">
+            <img src="ARAUCARIA.jpg" class="content-img" alt="home img">
+
+            <button class="tab-button" content-id="Home">Home</button>
+
+            <button class="tab-button" content-id="Jogos">Jogos</button>
+
+            <button class="tab-button" content-id="Atletas">Atletas</button>
+
+            <button class="tab-button" content-id="Estatisticas">Estatisticas</button>
+
+            <button class="tab-button" content-id="Cadastro">Cadastro</button>
+
+            
+        </div>
+
+        <div class="tab-contents">
+            <div class="content show" id="Home"> 
+                
+                <div class="infos">
+
+                <h1 class="title-content">Araucária basquete</h1>
+                <p class="content-description">
+                    Nosso time de basquete é focado em melhorar a cada jogo, buscando sempre a evolução no esporte. A cada treino, a gente aperfeiçoa os fundamentos, trabalha a tática e se prepara para os desafios
+                </p>
+               <div> <a href="#" class="btn">Desafie-nos para um amistoso</a> </div>
+
+                <section class="footer">
+                    <div class="share">
+                    <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/instagram-new--v1.png" alt="instagram-new--v1"/>
+                
+                    </div>
+                </section>
+                
+            </div>
+            </div>
+        </div>
+
+                          <!--JOGOS JOGOS JOGOS -->                  <!--JOGOS JOGOS JOGOS -->                     <!--JOGOS JOGOS JOGOS -->
+
+         <div class="content" id="Jogos"> 
+                            
+        <div class="infos">
+            
+        <h2 class="title-content">Tabela de Jogos</h2>
+        <p class="content-description">
+            Fique ligado nos jogos e resultados do nosso time! Aqui você encontra tudo sobre as partidas que já rolaram e as que estão por vir. 
+       </p>
+        
+         </div>
+        </div>
+                            <!--ATLETAS ATLETAS ATLETAS-->             <!--ATLETAS ATLETAS ATLETAS-->               <!--ATLETAS ATLETAS ATLETAS-->
+        
+        <div class="content" id="Atletas"> 
+                            
+        <div class="infos">
+                                    
+        <h3 class="title-content">Atletas de Araucária</h3>
+        <p class="content-description">
+            Aqui estão os caras que fazem tudo acontecer! Cada um com seu estilo, mas todos com o mesmo objetivo: dar o melhor em cada jogo.
+        </p>
+    </div>                  
+        </div>
+
+
+                            <!--ESTATISTICA ESTATISTICA ESTATISTICA-->  <!--ESTATISTICA ESTATISTICA ESTATISTICA-->   <!--ESTATISTICA ESTATISTICA ESTATISTICA-->
+
+
+        <div class="content" id="Estatisticas"> 
+                            
+        <div class="infos">
+                                    
+        <h4 class="title-content">Estatísticas em destaque</h4>
+        <p class="content-description">
+            Veja os números que mostram como nossos jogadores estão mandando bem em cada jogo
+        </p>
+                                
+        </div>
+    </div>
+                            <!--CADASTRO CADASTRO CADASTRO-->   <!--CADASTRO CADASTRO CADASTRO-->   <!--CADASTRO CADASTRO CADASTRO-->
+
+        <div class="content" id="Cadastro"> 
+                            
+        <div class="infos">
+                                                            
+        <h5 class="title-content">Cadastro do Atleta</h5>
+        <p class="content-description">
+            Quer jogar com a gente? Preencha aqui e venha fazer história no time!
+        </p>
+
+        <div class="form">
+            <form action="#">
+                <div class="form-header">
+                    <div class="title"></div>
+                    <h6>Cadastre-se</h6>
+                </div>
+                <div class="login-button">
+                    <button><a href="#">Entrar</a></button>
+                </div>
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="Firstname">Primeiro nome</label>
+                        <input id="Firstname" type="text" name="Firstname" placeholder="Digite seu primeiro nome" required>
+                    </div>
+
+                <!-- Segundo nome -->          <!-- Segundo nome -->     <!-- Segundo nome -->    <!-- Segundo nome -->
+
+
+                    <div class="input-box">
+                        <label for="Lastname">Sobrenome</label>
+                        <input id="Lastname" type="text" name="Lastname" placeholder="Digite seu Sobrenome" required>
+                    </div>
+                   
+
+                <!--E-MAIL E-MAIL E-MAIL-->       <!--E-MAIL E-MAIL E-MAIL-->         <!--E-MAIL E-MAIL E-MAIL-->         <!--E-MAIL E-MAIL E-MAIL-->
+
+
+                <div class="input-box">
+                    <label for="email">email</label>
+                    <input id="email" type="email" name="email" placeholder="Digite seu email" required>
+                </div>
+
+                <!-- TELEFONE TELEFONE TELEFONE-->      <!-- TELEFONE TELEFONE TELEFONE-->       <!-- TELEFONE TELEFONE TELEFONE-->
+
+                <div class="input-box">
+                    <label for="number">Telefone</label>
+                    <input id="number" type="tel" name="number" placeholder="(xx) 0000 00000" required>
+                </div>
+
+                <!--ALTURA DO ATLETA-->  <!--ALTURA DO ATLETA-->  <!--ALTURA DO ATLETA--> <!--ALTURA DO ATLETA-->
+
+                <div class="input-box">
+                    <label for="Altura">Altura do Atleta</label>
+                    <input id="Altura" type="number" name="Altura" step="0.01" placeholder="ex:1.60" required>
+                </div>
+
+                <!--POSIÇÃO DO ATLETA-->     <!--POSIÇÃO DO ATLETA-->     <!--POSIÇÃO DO ATLETA-->      <!--POSIÇÃO DO ATLETA-->
+
+                <div class="input-box">
+                    <label for="Posicao">Posição do Atleta</label>
+                    <select id="Posicao" name="Posicao" required>
+
+                        <option value="">Selecone a posição</option>
+                        <option value="Armador">Armador</option>
+                        <option value="Ala-armador">Ala-armador</option>
+                        <option value="Ala">Ala</option>
+                        <option value="Ala-pivo">Ala-pivo</option>
+                        <option value="Pivo">Pivo</option>
+                    </select>
+                </div>
+
+               <!--LESOES DO ATLETA-->        <!--LESOES DO ATLETA-->         <!--LESOES DO ATLETA-->         
+
+
+               <div class="input-box">
+                <label for="lesoes">Voce ja teve alguma lesão importante?</label>
+                <textarea id="lesoes" name="lesoes" rows="3" placeholder="Descreva sua lesão anterior"></textarea>
+
+               <br>
+
+                <!--SENHA SENHA SENHA-->   <!--SENHA SENHA SENHA-->   <!--SENHA SENHA SENHA-->  <!--SENHA SENHA SENHA-->
+
+                <div class="input-box">
+                    <label for="password">Senha</label>
+                    <input id="password" type="tel" name="password" placeholder="Digite sua Senha" required>
+                </div>
+
+                <!--CONFIRME SUA SENHA-->      <!--CONFIRME SUA SENHA-->    <!--CONFIRME SUA SENHA-->     <!--CONFIRME SUA SENHA-->
+
+                <div class="input-box">
+                    <label for="password">Confirme sua senha</label>
+                    <input id="password" type="tel" name="Confirmepassword" placeholder="Digite sua Senha" required>
+                </div>
+
+                </div>
+    </form>
+    </div>                                        
+    </div>
+    </div>
+
+</div>
+</body>
+</html>

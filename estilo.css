@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: none;
+    text-decoration: none;
+    transition: 0.1s linear;
+    
+    
+      
+}
+
+
+
+.content-img{
+    width: 80px;
+    height: 80px;
+    padding: 1rem 8rem;        /*adiciona espaço interno*/
+    margin: 0 auto; 
+}
+
+
+
+.content {
+    display: none;
+}
+
+.content.show {
+    display: block;
+}
+
+.footer {
+   position: fixed;
+   bottom: 10px;
+   left: 50%;
+   transform: translateX(-50%);
+   z-index: 100;
+   background-color: rgba(0red, 0green, 0blue, 0.5);
+   padding: 10px;
+   border-radius: 50%;
+}
+
+.footer .share {
+    margin: 0 auto;
+    cursor: pointer;
+    display: block;
+    
+
+}
+
+.footer .share:hover {
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 0.2rem;
+    font-size: 1.5rem;         
+    
+}
+
+
+         /* TESTE DE CONTEUDO*/          /* TESTE DE CONTEUDO*/           /* TESTE DE CONTEUDO*/          /* TESTE DE CONTEUDO*/           /* TESTE DE CONTEUDO*/ 
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-decoration: none;
+}         
+
+.tab-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.content-img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    border-radius: 50%;
+    border: none;
+}
+
+.tab-buttons {
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    background-color: #2e3d57;
+    line-height: 2rem;
+    display: inline-block;
+    align-items: center;
+    margin-top: 0;
+}
+
+.tab-button {
+    background-color: #2e3d57;
+}
+
+
+.tab-button:hover {
+    color: white(0, 0, 0);
+    border-bottom: 0.1rem solid #ffffff;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+.tab-buttons .tab-button {
+    margin: 0 1rem;
+    font-size: 1.8rem;
+    color: #ffffff;
+}
+
+.tab-buttons {
+    width: 100vw;
+}
+
+                                      /*Novas atualizações do BODY*/       /*Novas atualizações do BODY*/        /*Novas atualizações do BODY*/
+
+
+.tab-contents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    background-color: #ffffff;
+}                                      
+
+.content {
+    text-align: center;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px rgb(0, 0green, 0.1blue);
+    width: 80%;
+    max-width: 800px;
+}
+
+.title-content {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.content-description {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+ .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ }
+
+ .tab-buttons {
+    text-decoration: none;
+    align-items: center;
+ }
+
+ 
+
+
+
+
+
+ /* PAGINA DE CADASTRO DO ATLETA*/        /* PAGINA DE CADASTRO DO ATLETA*/          /* PAGINA DE CADASTRO DO ATLETA*/                 /* PAGINA DE CADASTRO DO ATLETA*/
+
+
+ .form{
+    text-align: center;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px rgb(0, 0green, 0.1blue);
+    width: 80%;
+    max-width: 500px;
+ }
+
+ .input-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: #ffffff;
+ }
+
+ .input-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    background-color: #ffffff;
+ }
