@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Araucaria basquete</title>
     <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="cadastro.css">
 </head>
 <body>
     <script src="basquete.js"></script>
     
     <div id="container">
         <div class="tab-buttons">
-            <img src="ARAUCARIA.jpg" class="content-img" alt="home img">
 
             <button class="tab-button" content-id="Home">Home</button>
 
@@ -36,11 +36,13 @@
                     Nosso time de basquete é focado em melhorar a cada jogo, buscando sempre a evolução no esporte. A cada treino, a gente aperfeiçoa os fundamentos, trabalha a tática e se prepara para os desafios
                 </p>
                <div> <a href="#" class="btn">Desafie-nos para um amistoso</a> </div>
+               <img src="ARAUCARIA.jpg" class="content-img" alt="home img">
 
                 <section class="footer">
                     <div class="share">
+                        <a href="https://www.instagram.com/" target="_blank">
                     <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/instagram-new--v1.png" alt="instagram-new--v1"/>
-                
+                </a>
                     </div>
                 </section>
                 
@@ -91,6 +93,7 @@
     </div>
                             <!--CADASTRO CADASTRO CADASTRO-->   <!--CADASTRO CADASTRO CADASTRO-->   <!--CADASTRO CADASTRO CADASTRO-->
 
+       
         <div class="content" id="Cadastro"> 
                             
         <div class="infos">
@@ -161,6 +164,44 @@
                     </select>
                 </div>
 
+                <!--NUMERO DA CAMISETA-->   <!--NUMERO DA CAMISETA-->   <!--NUMERO DA CAMISETA-->    <!--NUMERO DA CAMISETA-->
+
+                <div class="input-box">
+                    <label for="number">Escolha o numero do uniforme</label>
+                    <input id="number" type="number" name="numero" min="0" max="99" step="0" required>
+                </div>
+
+                <script>
+
+                    
+                     function atualizarNumeros() {
+            // Obtém todos os números selecionados
+            let selecionados = [];
+            let options = document.querySelectorAll('select option:checked');
+            options.forEach(option => {
+                selecionados.push(option.value);
+            });
+
+            // Para cada opção no select, desmarcar a opção se ela estiver na lista de selecionados
+            let allOptions = document.querySelectorAll('#numero option');
+            allOptions.forEach(option => {
+                if (selecionados.includes(option.value)) {
+                    option.disabled = true; // Desativa o número já escolhido
+                } else {
+                    option.disabled = false; // Ativa os números disponíveis
+                }
+            });
+        }
+
+        // Função para inicializar as opções ao carregar a página
+        window.onload = function() {
+            atualizarNumeros();
+        }
+
+
+
+                </script>
+
                <!--LESOES DO ATLETA-->        <!--LESOES DO ATLETA-->         <!--LESOES DO ATLETA-->         
 
 
@@ -189,7 +230,7 @@
     </div>                                        
     </div>
     </div>
-
+</div>
 </div>
 </body>
 </html>
